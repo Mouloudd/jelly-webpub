@@ -1,0 +1,35 @@
+{
+  "name": "jellyfin-modern-web",
+  "version": "1.0.0",
+  "description": "Modern web interface for Jellyfin media server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "client": "cd client && npm start",
+    "client:build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run client:build",
+    "build": "vite build",
+  "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "jellyfin",
+    "media-server",
+    "streaming",
+    "react",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

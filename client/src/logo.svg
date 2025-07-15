@@ -1,0 +1,6 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" rx="10" fill="#111827"></rect>
+  <text x="60" y="36" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF">DMstream</text>
+  <circle cx="30" cy="30" r="18" fill="#2563EB"></circle>
+  <polygon points="26,20 40,30 26,40" fill="white"></polygon>
+</svg>
